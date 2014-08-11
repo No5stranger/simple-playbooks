@@ -37,7 +37,7 @@ roles/
     vars/
     meta/
 ```
-# then as the entrance of the playbooks, could be:
+##### then as the entrance of the playbooks, could be:
 ```
 ---
 - hosts: webserver
