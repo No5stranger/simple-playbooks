@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+    - name: say hello world to everyone
+      shell: echo "hello world"
+  tasks:
+    - name: try to copy a file
+      copy: src=/home/no5stranger/Dropbox/mywrite/playbooks/a.txt
+          dest=/tmp/play.txt
+          owner=no5stranger group=no5stranger mode=0644
