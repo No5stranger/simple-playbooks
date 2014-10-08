@@ -4,7 +4,7 @@ Keynote about playbooks
 ### Install Ansible
 ```
 wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
+sudo python get-pip.py
 sudo pip install ansible
 ```
 
